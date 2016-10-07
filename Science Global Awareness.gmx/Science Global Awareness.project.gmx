@@ -5,9 +5,30 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_earth</sprite>
+    <sprite>sprites\spr_menu</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_stars</background>
+    <background>background\bg_starsfar</background>
+    <background>background\background2</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_Earth</object>
+    <object>objects\obj_init</object>
+    <object>objects\obj_menu_UI</object>
+    <object>objects\obj_manager</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_GlobalView</room>
+    <room>rooms\rm_city1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
