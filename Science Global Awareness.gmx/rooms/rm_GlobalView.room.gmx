@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_Earth" x="800" y="416" name="inst_BECBEB99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu_UI" x="1184" y="0" name="inst_D3C2496D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu_UI" x="1216" y="0" name="inst_D3C2496D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_manager" x="0" y="0" name="inst_A128F590" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

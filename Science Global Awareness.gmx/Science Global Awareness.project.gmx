@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_earth</sprite>
     <sprite>sprites\spr_menu</sprite>
+    <sprite>sprites\spr_btn_startProject</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_stars</background>
@@ -23,6 +24,7 @@
     <object>objects\obj_init</object>
     <object>objects\obj_menu_UI</object>
     <object>objects\obj_manager</object>
+    <object>objects\obj_StartProjectBtn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
