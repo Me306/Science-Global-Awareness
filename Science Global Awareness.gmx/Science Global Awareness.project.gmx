@@ -27,6 +27,7 @@
     <objects name="controllers">
       <object>objects\obj_manager</object>
       <object>objects\obj_init</object>
+      <object>objects\obj_cityManager</object>
     </objects>
     <object>objects\obj_myCity</object>
   </objects>
