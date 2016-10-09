@@ -10,6 +10,14 @@
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_btn_startProject</sprite>
     <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_car2</sprite>
+    <sprite>sprites\spr_road</sprite>
+    <sprite>sprites\spr_car1</sprite>
+    <sprite>sprites\sprite6_Beard1</sprite>
+    <sprite>sprites\sprite7_Bro</sprite>
+    <sprite>sprites\sprite8_Brookie</sprite>
+    <sprite>sprites\spr_chef</sprite>
+    <sprite>sprites\spr_killwall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_stars</background>
@@ -17,6 +25,9 @@
     <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_move.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
@@ -27,9 +38,13 @@
     <objects name="controllers">
       <object>objects\obj_manager</object>
       <object>objects\obj_init</object>
-      <object>objects\obj_cityManager</object>
     </objects>
     <object>objects\obj_myCity</object>
+    <object>objects\obj_road</object>
+    <object>objects\obj_car1</object>
+    <object>objects\obj_ppl1</object>
+    <object>objects\obj_parent</object>
+    <object>objects\obj_killWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
