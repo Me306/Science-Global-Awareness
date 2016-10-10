@@ -29,7 +29,7 @@
 globalvar aware;
 global.aware = 0;
 globalvar people;
-global.people = 4;
+global.people = 10;
 globalvar cars;
 global.cars=0;
 if global.people &gt;= 5{

@@ -13,11 +13,13 @@
     <sprite>sprites\spr_car2</sprite>
     <sprite>sprites\spr_road</sprite>
     <sprite>sprites\spr_car1</sprite>
-    <sprite>sprites\sprite6_Beard1</sprite>
-    <sprite>sprites\sprite7_Bro</sprite>
-    <sprite>sprites\sprite8_Brookie</sprite>
-    <sprite>sprites\spr_chef</sprite>
     <sprite>sprites\spr_killwall</sprite>
+    <sprites name="people">
+      <sprite>sprites\spr_bro</sprite>
+      <sprite>sprites\spr_chef</sprite>
+      <sprite>sprites\spr_brooke</sprite>
+      <sprite>sprites\spr_headphones</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_stars</background>

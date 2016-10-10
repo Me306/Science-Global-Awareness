@@ -28,6 +28,8 @@
             <string>///Start income
 alarm[0] = room_speed;
 alarm[1] = room_speed; //sp[awn peolple
+
+
 </string>
           </argument>
         </arguments>
@@ -70,7 +72,7 @@ if room=rm_city1{
             }
             
             person.type = "person";
-            person.dir = choose(-1,1);
+            person.dir = dir;
         
     }else if spawn = 2{
         randomize();
@@ -83,7 +85,7 @@ if room=rm_city1{
             }
             
             person.type = "person";
-            person.dir = choose(-1,1);
+            person.dir = dir;
         
     }
     
