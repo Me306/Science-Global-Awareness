@@ -10,15 +10,17 @@
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_btn_startProject</sprite>
     <sprite>sprites\sprite4</sprite>
-    <sprite>sprites\spr_car2</sprite>
     <sprite>sprites\spr_road</sprite>
-    <sprite>sprites\spr_car1</sprite>
     <sprite>sprites\spr_killwall</sprite>
     <sprites name="people">
       <sprite>sprites\spr_bro</sprite>
       <sprite>sprites\spr_chef</sprite>
       <sprite>sprites\spr_brooke</sprite>
       <sprite>sprites\spr_headphones</sprite>
+    </sprites>
+    <sprites name="vehicles">
+      <sprite>sprites\spr_car2</sprite>
+      <sprite>sprites\spr_car1</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
