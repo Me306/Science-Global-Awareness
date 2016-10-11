@@ -29,9 +29,11 @@
 globalvar aware;
 global.aware = 0;
 globalvar people;
-global.people = 10;
+global.people = 9;
 globalvar cars;
 global.cars=0;
+globalvar open;
+global.open = true;
 if global.people &gt;= 5{
     global.cars = global.people/5;
     global.cars = floor(global.cars);

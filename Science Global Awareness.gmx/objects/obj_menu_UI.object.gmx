@@ -28,7 +28,7 @@
             <string>///initialize
 menu=x;
 moveSpeed=10;
-open = true;
+//
 </string>
           </argument>
         </arguments>
@@ -53,13 +53,13 @@ open = true;
             <kind>1</kind>
             <string>///Open/close menu
 
-if (open){
+if (global.open){
     if x &gt; menu{
         x -= moveSpeed;
     }else if x &lt; menu{
         x = menu;
     }   
-}else if (!open){
+}else if (!global.open){
     if x &lt; 1600{
         x += moveSpeed;
     }else if x &gt; 1600{
@@ -68,7 +68,7 @@ if (open){
 }
 
 if keyboard_check_pressed(vk_escape){
-    open = !open;
+    global.open = !global.open;
 }
 
 
