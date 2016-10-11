@@ -22,7 +22,6 @@
       <sprite>sprites\spr_car2</sprite>
       <sprite>sprites\spr_car1</sprite>
     </sprites>
-    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_stars</background>
